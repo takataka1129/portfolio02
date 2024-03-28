@@ -1,0 +1,339 @@
+@charset "UTF-8";
+/* CSS Document */
+
+ html {
+       height: 100%;
+       width: 100%;
+       font-size: 62.5%;
+}
+
+body{
+    line-height: 1.5;
+    color:#000000;
+    font-family:  "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "游ゴシック", YuGothic,'Meiryo UI',Meiryo,"ＭＳ ゴシック",Arial, sans-serif;
+    -webkit-text-size-adjust: 100%;
+	background-color: #FFFFFF;
+}
+
+img{
+	max-width: 100%;
+	height:auto;
+	display: block;
+}
+
+.insta{
+	margin: 20px 0 0 270px;
+}
+
+.insta_btn3{
+	padding: 0.8em;
+  	transition: all .3s;
+}
+.insta_btn3:hover {
+  color: #FFFFFF;
+  background-color: #87ceeb;
+}
+
+.wrapper{
+ /* max-width: 1300px;*/
+  margin: 0 auto;
+}
+.name-box{
+	max-width: 100%;
+}
+.name{
+	margin: 40px 0 20px 60px;
+}
+
+nav{
+font-family: Tahoma, Geneva, "sans-serif";
+text-transform:uppercase;
+padding: 20px 40px 30px 0;
+text-align: right;
+font-size: 18px;
+}
+nav ul{
+margin: 0 ;
+padding: 0 ;
+}
+nav ul li{
+list-style: none;
+display: inline-block;
+width: 10%;
+min-width: 90px;
+}
+nav ul li a{
+text-decoration: none;
+color: #000000;
+}
+
+nav ul li a:hover{
+color: #E7DA66;
+}
+
+.block{
+	display: block;
+}
+
+.header-img{
+	margin: 60px auto 20px;
+}
+
+.photo-box{
+	max-width: 100%;
+}
+
+.header-text{
+	font-size: 50px;
+	font-family: "Arial Black", Gadget, "sans-serif";
+	text-align: center;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+
+}
+.text1{
+	font-size: 18px;
+	margin: 0 0 10px 290px;
+}
+
+.text-about{
+	font-size: 18px;
+	margin: 20px 0 10px 290px;
+	font-family: "Arial Black", Gadget, "sans-serif";
+	text-transform: capitalize;
+}
+.text1-1{
+	font-size: 15px;
+	margin: 0 0 30px 290px;
+}
+
+.text2{
+	font-size: 18px;
+	margin: 50px 0 10px 290px;
+	font-family: "Arial Black", Gadget, "sans-serif";
+	text-transform: capitalize;
+}
+
+.flex{
+	display: flex;
+}
+
+.band1{
+	margin:0px 0 0 300px;
+}
+
+.band2{
+	margin:50px 50px 0px 50px;
+}
+
+
+.photo1{
+	margin: 0 0 0 120px;
+}
+
+.photo2{
+	margin:0px 0 0 350px;
+	
+}
+.about-box{
+	margin: 50px 0 0px 0;
+}
+.copyright{
+	text-align: center;
+}
+
+
+
+.text_w1{
+	font-size: 30px;
+	margin: 40px 0 0px 160px;
+}
+
+.text_w2{
+	font-size: 25px;
+	margin: 50px 0 0  20px;
+}
+
+.text_w3{
+	font-size: 15px;
+	margin: 30px 0 0 20px;
+}
+
+
+.text_w4{
+	font-size: 25px;
+	margin: 70px 0 0 420px;
+}
+
+.text_w5{
+	font-size: 15px;
+	margin: 30px 0 40px 420px;
+}
+
+.img_wrap{
+  border: 1px solid #ddd;
+  width: 300px;
+  margin: 50px 40px 0px 270px;
+  overflow: hidden;
+}
+.img_wrap img{
+  width: 100%;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+.img_wrap:hover img{
+  opacity: 0.6;
+  transition-duration: 0.3s;
+}
+
+
+.photo-pc{
+	display: block;
+}
+.photo-sp{
+	display: none;
+}
+
+
+@media screen and (max-width: 480px) { /*ウィンドウ幅が0～479pxの場合にcssを適用*/
+
+.wrapper{
+  margin: 0 3%;
+}
+	
+	.name{
+		margin: 10px  auto 50px ;
+	}
+
+	.photo-pc{
+		display: none;
+	}
+	
+	.photo-sp{
+		display: block;
+	}
+	
+nav{
+font-family: Tahoma, Geneva, "sans-serif";
+text-transform:uppercase;
+padding: 0px;
+margin: 0 auto 70px;
+text-align: center;
+font-size: 20px;
+}	
+	
+	
+	
+nav ul li{
+list-style: none;
+display: inline-block;
+width: 15%;
+min-width: 100px;
+}	
+	
+	
+.text1{
+	font-size: 18px;
+	margin: 50px auto 10px;
+	text-align: center;
+}
+
+.text1-1{
+	font-size: 15px;
+	margin: 0 auto 30px;
+}
+
+.text2{
+	font-size: 18px;
+	margin: 50px auto 10px ;
+	text-align: center;
+}	
+	
+.flex{
+	display: block;
+}	
+	
+	
+.band1{
+	margin: 0 auto;
+}
+
+.band2{
+	margin:5px auto ;
+}
+
+	.band3{
+		margin: 0 auto;
+	}
+.photo1{
+	margin: 0 auto;
+	width: 100%;
+}
+
+.photo2{
+	margin: 0 auto;
+	width: 100%;
+	
+}	
+	
+	
+	.band{
+		margin: 0 auto;
+		width: 100%;
+	}	
+	
+	
+.text_w1{
+	font-size: 30px;
+	margin: 40px auto;
+	text-align: center;
+}
+
+.text_w2{
+	font-size: 20px;
+	margin: 10px auto;
+	text-align: center;
+}
+
+.text_w3{
+	font-size: 15px;
+	margin: 30px auto 20px ;
+	
+}
+
+
+.text_w4{
+	font-size: 20px;
+	margin: 70px auto 10px;
+	text-align: center;
+}
+
+.text_w5{
+	font-size: 15px;
+	margin: 30px auto 40px;
+}
+	
+	
+.img_wrap{
+  border: 1px solid #ddd;
+  width: 300px;
+  margin: 50px auto;
+  overflow: hidden;
+}
+	
+.insta{
+	margin: 20px 0 0 0px;
+	text-align: center;
+}
+	
+	}
+
+
+
+
+
+
+
+
+
+

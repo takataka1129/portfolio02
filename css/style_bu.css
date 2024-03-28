@@ -1,0 +1,871 @@
+@charset "UTF-8";
+/* CSS Document */
+
+ html {
+       height: 100%;
+       width: 100%;
+       font-size: 62.5%;
+}
+
+body{
+    line-height: 1.5;
+    color:#FFFFFF;
+    font-family:  "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "游ゴシック", YuGothic,'Meiryo UI',Meiryo,"ＭＳ ゴシック",Arial, sans-serif;
+    -webkit-text-size-adjust: 100%;
+	background-color: #1B1008;
+}
+
+img{
+	max-width: 100%;
+	height:auto;
+}
+
+
+/*-------------------effect----------------------------*/
+.fade{
+  opacity : 0;
+  transition: opacity 9s;
+}
+ 
+.fade.view{
+  opacity: 1;
+}
+/*-------------------//effect----------------------------*/
+
+
+
+/*--------------------------------------
+utility class
+--------------------------------------*/
+.text-center{
+	text-align: center;
+}
+
+.wrapper{
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+.flex{
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.flex div:nth-of-type(1) {
+	width: 100%;
+    max-width: 340px;
+}
+
+.flex1{
+	display: flex;
+}
+
+
+/*-------------------header----------------------------*/
+.title{
+	font-size: 50px;
+	color:#000000;
+	margin: 220px auto 0 auto;
+}
+
+.img1{
+	
+}
+
+.img2{
+	padding-top: 30px
+}
+
+.sp-li{
+	display: none;
+}
+
+.pc-li{
+	display: inline-block;
+}
+nav{
+text-transform:uppercase;
+padding-top: 20px;
+text-align: center;
+font-size: 15px;
+}
+nav ul{
+margin: 0 ;
+padding: 0 ;
+}
+nav ul li{
+list-style: none;
+display: inline-block;
+width: 15%;
+min-width: 90px;
+}
+nav ul li a{
+text-decoration: none;
+color: #FFFFFF;
+}
+nav ul li.current a{
+color: #F33135;
+}
+nav ul li a:hover{
+color: #E7DA66;
+}
+/*-------------------------------------/header------------------------*/
+
+
+/*----------------------------about-------------------------*/
+.about-box{
+	margin: 45px 0 50px 0;
+}
+
+
+.about-title{
+	text-transform:uppercase;
+	-ms-writing-mode: tb-rl;
+	writing-mode: vertical-rl;
+	display: inline-block;
+	margin: 190px 0 120px 0;
+	font-size: 120px;
+	vertical-align: top; 
+}
+.span1{
+	color: #F2651A;
+}
+
+.inline1{
+	display: inline-block;
+}
+.about-1{
+	font-size: 50px;
+	margin: 50px auto 50px 0px;
+}
+.about-2{
+	font-size: 25px;
+	padding: 0px 0px 0px 50px;
+}
+.img3{
+	margin: 5% 0 30px 50%;
+}
+/*----------------------------//about----------------------*/
+
+
+/*---------------------dinner-----------------------*/
+
+
+.sp-dinner-title{
+	display: none;
+}	
+
+.dinner-title{
+	text-transform:uppercase;
+	-ms-writing-mode: tb-rl;
+	writing-mode: vertical-rl;
+	display: inline-block;
+	margin: 190px 0 120px 0;
+	font-size: 120px;
+	vertical-align: top;
+	text-align: center;
+}
+.box{
+	display: flex;
+}
+
+/*--------------------//dinner*----------------------/
+
+
+/*----------------------menu------------------------*/
+.about-box2{
+	margin: 140px 0 40px 0;
+}
+
+.br-sp{
+	display: none;
+}
+.menu-1{
+	font-size: 30px;
+	margin: 50px auto 20px 0px;
+}
+
+
+.flex-menu{
+	display: flex;
+}
+.menu-box1{
+	display: block;
+	margin: 0 0 0 0;
+}
+.about-2{
+	padding: 0;
+}
+.about-3{
+	font-size: 23px;
+}
+.menu-box2{
+	display: block;
+}
+
+.menu-box3{
+	margin-left: 150px;
+}
+.piza-1{
+	font-size: 30px;
+	margin-top: 40px;
+}
+.piza{
+	font-size: 25px;
+}
+.img-menu{
+	margin: 30px 0 0 0px;
+}
+/*------------------//menu------------------------*/
+
+/*----------------------floor------------------------*/
+.floor1{
+	text-align: center;
+}
+.flex-floor2{
+	display: flex;
+}
+.corona1{
+	padding-left: 60px;
+}
+
+.corona2{
+	text-align: center;
+	padding-top: 100px;
+}
+.floor2{
+	
+}
+
+.floor1-text{
+	font-size: 30px;
+	margin: 30px 0 0 50px;
+}
+.floor2-text{
+	font-size: 40px;
+	margin: 50px 0 0 100px;
+}
+
+/*----------------------//floor------------------------*/
+
+
+
+/*----------------------contact------------------------*/
+.flex-footer{
+	display: flex;
+}
+.hoge { text-align: center; }
+
+
+.contact{
+	text-transform:uppercase;
+	font-size: 80px;
+	text-align: center;
+}
+.contact-line{
+	margin: 10px 0 50px 0;
+}
+
+.contact-text{
+	font-size: 30px;
+	padding: 30px 0 0px 80px;
+}
+.map{
+ width: 100%;
+}
+
+.footer-img{
+	padding: 20px 0 0 60px;
+}
+
+.disply_block{
+	display: block;
+}
+/*----------------------//contact------------------------*/
+
+
+
+/*----------------------botan------------------------*/
+.right{
+	text-align: right;
+}
+.insta_btn3 {/*ボタンの下地*/
+  color: #FFF;/*文字・アイコン色*/
+  border-radius: 14px;/*角丸に*/
+  position: relative;
+  display: block;
+  height: 120px;/*高さ*/
+  width: 120px;/*幅*/
+  text-align: center;/*中身を中央寄せ*/
+  padding-top: 12px;/*上側との余白*/
+  box-sizing: border-box;
+  font-size: 19px;/*文字のサイズ*/
+  background: -webkit-linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
+  background: linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;/*グラデーション①*/
+  overflow: hidden;/*はみ出た部分を隠す*/
+  text-decoration:none;/*下線は消す*/
+}
+
+.insta_btn3:before{/*グラデーション②*/
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;/*全体を覆う*/
+  height: 100%;/*全体を覆う*/
+  background: -webkit-linear-gradient(15deg, #ffdb2c, rgb(249, 118, 76) 25%, rgba(255, 77, 64, 0) 50%) no-repeat;
+  background: linear-gradient(15deg, #ffdb2c, rgb(249, 118, 76) 25%, rgba(255, 77, 64, 0) 50%) no-repeat;
+}
+
+.insta_btn3 div {
+  position: relative;
+}
+
+.insta_btn3 .fa-instagram {
+    font-size: 70px;/*アイコンサイズ*/
+    position: relative;
+    display:inline-block;
+    position: relative;
+    transition: .5s
+}
+
+.insta_btn3 .fa-instagram:hover {/*ホバーで一周回転*/
+  -webkit-transform: rotateX(360deg);
+  -ms-transform: rotateX(360deg);
+  transform: rotateX(360deg);
+}
+/*----------------------//botan------------------------*/
+
+.copyright{
+	text-align: center;
+	font-size: 20px;
+}
+
+/***追従するトップへ戻るボタン***/
+#page-top {
+    position: fixed;
+    right: 5px;
+    bottom: 20px;
+    height: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    transform: rotate(90deg);
+    font-size: 90%;
+    line-height: 1.5rem;
+    color: #FFFFFF;
+    padding: 0 0 0 35px;
+    border-top: solid 1px;
+}
+#page-top::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -1px;
+    left: 0px;
+    width: 15px;
+    border-top: solid 1px;
+    transform: rotate(35deg);
+    transform-origin: left top;
+}
+/***トップへ戻るボタンここまで***/
+
+
+
+
+
+@media screen and (max-width: 780px) {
+.wrapper{
+    margin: 0 2%;
+}	
+
+
+.br-pc{
+	display: none;
+}
+
+
+.pc-li{
+	display: none;
+}
+	.sp-li{
+		display: inline-block;
+	}
+nav{
+text-transform:uppercase;
+padding-top: 20px;
+text-align: center;
+font-size: 15px;
+}
+nav ul{
+margin: 0 ;
+padding: 0 ;
+}
+nav ul li{
+list-style: none;
+display: inline-block;
+width: 20%;
+min-width: 85px;
+}
+nav ul li a{
+text-decoration: none;
+color: #FFFFFF;
+}
+nav ul li.current a{
+color: #F33135;
+}
+nav ul li a:hover{
+color: #E7DA66;
+}
+/*----------------------------about-------------------------*/
+.flex1{
+	display: block;
+}
+
+
+.about-title{
+	text-transform:uppercase;
+	writing-mode: horizontal-tb;
+	display: block;
+	font-size: 55px;
+	margin: 0;
+	text-align: center;
+}
+
+.about-1{
+	font-size: 24px;
+	margin: 20px 0 20px 210px;
+}
+.about-2{
+	font-size: 25px;
+	padding: 0px 0px 0px 230px;
+}
+.img3{
+	margin: 20px auto;
+	text-align: center;
+	display: block;
+}
+.about-box{
+	margin: 30px 0 30px 0;
+}
+/*----------------------------about-------------------------*/
+
+	
+	
+/*---------------------dinner-----------------------*/	
+	
+.sp-dinner{
+	display: block;
+}	
+	
+.inline1{
+	display: block;
+}
+
+.scroll-fade2{
+	
+}
+	
+.pc-dinner-title{
+	display: none;
+}
+.sp-dinner-title{
+	display: block;
+}
+.dinner-title{
+	text-transform:uppercase;
+	writing-mode: horizontal-tb;
+	display: block;
+	font-size: 55px;
+	margin: 0 0 20px 0;
+	float: none;
+}
+
+	
+.box{
+	text-align: center;
+	display: block;
+}
+.dinner-1{
+	width: 90%;
+	margin: 0 5%;
+}
+.dineer-2{
+	width: 90%;
+	margin: 0 5%;
+}
+.dinner-3{
+	width: 90%;
+	margin: 0 5%;
+}
+.dinner-4{
+	width: 90%;
+	margin: 0 5%;
+}
+.dinner-5{
+	width: 90%;
+	margin: 0 5%;
+}
+/*---------------------dinner-----------------------*/	
+	
+	
+	
+/*----------------------menu------------------------*/
+.br-sp{
+	display: block;
+}
+
+.flex-menu{
+	display: block;
+}
+.menu-box1{
+	margin: 0;
+	display: block;
+}
+
+.menu-box2{
+	display: block;
+}
+.menu-box3{
+	margin: 0;
+}
+.menu-1{
+  	font-size: 20px;
+	margin: 20px 0 20px 0;
+	text-align: center;
+}
+	
+.about-2{
+	font-size: 18px;
+		
+}
+.about-3{
+	font-size: 16px;	
+	padding-left: 230px;
+	margin-bottom: 20px;
+}
+.about-box2{
+	margin: 40px 0 ;
+}
+.piza-1{
+	font-size: 20px;
+	margin: 20px 0 20px 0;
+	text-align: center;
+		
+}
+.piza{
+	font-size: 20px;
+}
+
+.img-menu{
+	display: block;
+	padding-top: 30px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+/*----------------------menu------------------------*/
+
+
+/*----------------------floor------------------------*/
+	
+	.floor1-text{
+		font-size: 20px;
+		margin: 0;
+	}	
+
+.flex-floor2{
+	float: none;
+	display: block;
+}
+.floor2{
+	padding: 0;
+}
+
+.floor2-text{
+	font-size: 20px;
+	padding-top: 10px;
+	text-align: center;
+	margin: 0;
+}
+
+.corona1{
+	padding: 0;
+}
+	.corona2{
+		padding: 50px 0 0;
+	}
+/*----------------------floor------------------------*/
+
+
+
+/*----------------------contact------------------------*/
+.contact{
+	font-size: 55px;
+}
+.map{
+ width: 100%;
+}
+
+.contact-text{
+	padding: 20px 0 30px 0;
+	font-size:  20px;
+}
+.footer-img{
+	display: none;
+}
+
+/*----------------------contact------------------------*/
+.map{
+ width: 100%;
+}
+
+	
+	
+}
+
+@media screen and (max-width: 480px) { /*ウィンドウ幅が0～479pxの場合にcssを適用*/
+
+.wrapper{
+    padding: 0 5%;
+}
+
+.br-pc{
+	display: none;
+}
+
+
+.pc-li{
+	display: none;
+}
+	.sp-li{
+		display: inline-block;
+	}
+nav{
+text-transform:uppercase;
+padding-top: 20px;
+text-align: center;
+font-size: 10px;
+}
+nav ul{
+margin: 0 ;
+padding: 0 ;
+}
+nav ul li{
+list-style: none;
+display: inline-block;
+width: 5%;
+min-width: 65px;
+}
+nav ul li a{
+text-decoration: none;
+color: #FFFFFF;
+}
+nav ul li.current a{
+color: #F33135;
+}
+nav ul li a:hover{
+color: #E7DA66;
+}
+/*----------------------------about-------------------------*/
+.flex1{
+	display: block;
+}
+
+
+.about-title{
+	text-transform:uppercase;
+	writing-mode: horizontal-tb;
+	display: block;
+	font-size: 55px;
+	margin: 0;
+	text-align: center;
+}
+
+.about-1{
+	font-size: 20px;
+	margin: 20px auto 20px 15px;
+}
+.about-2{
+	font-size: 15px;
+	padding: 0px 0px 0px 15px;
+}
+.img3{
+	margin: 20px 0 0 0;
+}
+.about-box{
+	margin: 30px 0 30px 0;
+}
+/*----------------------------about-------------------------*/
+
+	
+	
+/*---------------------dinner-----------------------*/	
+	
+.sp-dinner{
+	display: block;
+}	
+	
+.inline1{
+	display: block;
+}
+
+.scroll-fade2{
+	
+}
+	
+.pc-dinner-title{
+	display: none;
+}
+.sp-dinner-title{
+	display: block;
+}
+.dinner-title{
+	text-transform:uppercase;
+	writing-mode: horizontal-tb;
+	display: block;
+	font-size: 55px;
+	margin: 0;
+	float: none;
+}
+
+	
+.box{
+	text-align: center;
+	display: block;
+}
+.dinner-1{
+	width: 90%;
+	margin: 0 5%;
+}
+.dineer-2{
+	width: 90%;
+	margin: 0 5%;
+}
+.dinner-3{
+	width: 90%;
+	margin: 0 5%;
+}
+.dinner-4{
+	width: 90%;
+	margin: 0 5%;
+}
+.dinner-5{
+	width: 90%;
+	margin: 0 5%;
+}
+/*---------------------dinner-----------------------*/	
+	
+	
+	
+/*----------------------menu------------------------*/
+.br-sp{
+	display: block;
+}
+
+.flex-menu{
+	display: block;
+}
+.menu-box1{
+	margin: 0;
+	display: block;
+}
+
+.menu-box2{
+	display: block;
+}
+.menu-box3{
+	margin: 0;
+}
+.menu-1{
+  	font-size: 20px;
+	margin: 20px 0 20px 0;
+	text-align: center;
+}
+	
+.about-2{
+	font-size: 15px;
+	padding-left: 25px;
+		
+}
+.about-3{
+	font-size: 13px;	
+	padding-left: 24px;
+	margin-bottom: 20px;
+}
+.about-box2{
+	margin: 40px 0 ;
+}
+.piza-1{
+	font-size: 20px;
+	margin: 20px 0 20px 0;
+	text-align: center;
+		
+}
+.piza{
+	font-size: 20px;
+}
+
+.img-menu{
+	padding-top: 30px;
+}
+
+/*----------------------menu------------------------*/
+
+
+/*----------------------floor------------------------*/
+	
+	.floor1-text{
+		font-size: 20px;
+		margin: 0;
+	}	
+
+.flex-floor2{
+	float: none;
+	display: block;
+}
+.floor2{
+	padding: 0;
+}
+
+.floor2-text{
+	font-size: 20px;
+	padding-top: 10px;
+	text-align: center;
+	margin: 0;
+}
+
+.corona1{
+	padding: 0;
+}
+	.corona2{
+		padding: 50px 0 0;
+	}
+/*----------------------floor------------------------*/
+
+
+
+/*----------------------contact------------------------*/
+.contact{
+	font-size: 55px;
+}
+.map{
+ width: 100%;
+}
+
+.contact-text{
+	padding: 20px 0 30px 0;
+	font-size:  20px;
+}
+.footer-img{
+	display: none;
+}
+
+/*----------------------contact------------------------*/
+
+
+}
+	
